@@ -31,7 +31,7 @@ STEAM API to provide much more functionality. That's just small prototype. ðŸ‘¨â
 ==============================================
 ```
 
-## How to start?
+# How to use it (why would you do that?)?
 
 1. Clone repo.
 2. Create venv, for example `python -m venv venv`.
