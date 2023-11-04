@@ -22,7 +22,7 @@ with open("output.html", 'w') as file:
         del game['streamingvideo_available']
         del game['header_image']
         del game['type']
+        print("{:>30s} -- {:>2s}".format((game['name']), "abcdef"))
 
     print(f"\n===================================\n")
-    for game in games:
-        print(f"{color('HEADER')}name:{color('ENDC')} {game['name']}, {color('HEADER')}price:{color('ENDC')} {format_price(game['final_price'])}")
+    table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}
